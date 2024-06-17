@@ -1,0 +1,35 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$route['default_controller'] = 'mainpage';
+$route['About-Us'] = 'mainpage/about';
+$route['Documentation-Format'] = 'mainpage/contact';
+$route['Retrospectives'] = 'mainpage/video';
+//$route['Documentation_Format'] = 'mainpage/contact';
+//$route['Member-Login'] = 'mainpage/member_login';
+$route['all-available-services'] = 'mainpage/services';
+$route['detailInformation/(:any)'] = 'mainpage/detailInformation/$1';
+//$route['services-video'] = 'mainpage/video';
+$route['videoInformation/(:any)'] = 'mainpage/videoInformation/$1';
+$route['Administrative/Services'] = 'Services';
+$route['Administrative/Slider'] = 'Slider';
+$route['Administrative/Information'] = 'Information';
+$route['Administrative/AboutInfo'] = 'AboutInformation';
+$route['Administrative/Video'] = 'Video';
+$route['Administrative/Contact'] = 'Contact';
+$route['Administrative/Client'] = 'Client';
+$route['Administrative/Teacher'] = 'Teacher';
+$route['Administrative/Student'] = 'Student';
+$route['Administrative/Course'] = 'Course';
+$route['Administrative/Technology'] = 'Technology';
+$route['Administrative/AssignTechnology'] = 'AssignTechnology';
+$route['Administrative/AssignProject'] = 'AssignProject';
+$route['Administrative/AcademicYear'] = 'AcademicYear';
+$route['Administrative/UploadProject'] = 'UploadProject';
+$route['Student/Project-Registration'] = 'ProjectRegistration';
+$route['Student/Project-Status'] = 'ProjectRegistration/ProjectStatus';
+$route['Student/Project-Upload'] = 'ProjectUpload';
+$route['Teacher/ProjectApproval'] = 'ProjectApproval';
+$route['Teacher/ProjectApproval/ProjectSubmission'] = 'ProjectApproval/ProjectSubmission';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE; 

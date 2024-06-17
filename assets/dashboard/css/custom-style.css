@@ -1,0 +1,238 @@
+.user-img {
+    border-radius: 50%;
+    margin-top: -14px;
+}
+.icon {
+    font-size: 24px;
+    margin-top: 0px; /*margin-top: 4px;*/
+}
+
+.navbar-right
+{
+    float:right;
+}
+
+section.content {
+    margin: 80px 0px 0 300px;
+}
+.the-legend {
+    border-style: none;
+    border-width: 0;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0 10px;
+    font-weight:bold;
+    border: 1px solid #e0e0e0;
+    box-shadow: 5px 5px #888888;
+}
+.customLabel {
+    font-size:11px;
+}
+.the-fieldset {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.danger
+{
+    background-color:#F5C6CB;
+}
+
+.unselectable{
+  background-color: #dddddd70;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+ /* Style to print Bill  */
+ 
+.formatPrint{
+   font-size:13px;
+}
+
+.billing-head{
+  border-right: 2px solid #0e0e0e52;
+  border-left: 2px solid #0e0e0e52;
+}
+
+.print .body div{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.print .body h2{
+  margin-top: 0 !important;
+}
+table.invoice{
+  margin-bottom: 0px !important;
+}
+table.invoice th{
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+table.invoice .text{
+  text-align: left;
+}
+
+table.invoice td{
+  text-align: center;
+}
+
+table.invoice .data{
+  text-align: right;
+}
+
+.invoice tbody tr td, .invoice tbody tr th,.invoice thead tr th{
+  padding: 0px 2px !important;
+}
+
+.invoice > thead > tr > th,
+.invoice > tbody > tr > th,
+.invoice > tfoot > tr > th,
+.invoice > thead > tr > td,
+.invoice > tbody > tr > td,
+.invoice > tfoot > tr > td {
+  padding: 4px 0px 4px 4px !important;
+}
+
+.print .table-responsive{
+  padding-top: 0px !important;
+  padding-bottom: 5px !important;
+}
+.netvalues{
+  border-left: 1px solid #555;
+}
+.print hr{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  border-top: 1px solid #555;
+}
+
+.signature div{
+  border: 1px solid #999;
+  min-height: 50px;
+}
+
+.signature span{
+  padding-left: 5px;
+}
+
+.glyphicon-import{
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+
+.info-block{ 
+  margin-left:40px;
+}
+
+
+/* style for Order Tracking */
+.status-bg-0
+{
+	background-color: #9E9E9E !important;
+    color: #fff;
+}
+
+.status-bg-1
+{
+    background-color: #8BC34A !important;
+    color: #fff;
+}
+
+.status-bg-2
+{
+    background-color: #FF9800 !important;
+    color: #fff;
+}
+
+.status-bg-3
+{
+    background-color: #607D8B !important;
+    color: #fff;
+}
+
+.status-bg-4
+{
+    background-color: #795548 !important;
+    color: #fff;
+}
+
+.status-bg-5
+{
+    background-color: #FF5722 !important;
+    color: #fff;
+}
+
+.status-bg-6
+{
+    background-color: #3F51B5 !important;
+    color: #fff;
+}
+
+.status-bg-7
+{
+    background-color: #009688 !important;
+    color: #fff;
+}
+
+.status-bg-8
+{
+    background-color: #4CAF50 !important;
+    color: #fff;
+}
+
+/*Class to load Loader still image upload*/
+    .pageLoader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url('../images/31.gif') 50% 50% no-repeat rgb(249,249,249);
+        opacity: .8;
+    } 
+    
+/* Code for all button within single line*/
+.btn
+{
+    display: inline;
+}    
+
+.notifications
+{
+    padding: 7px 11px;
+    text-decoration: none;
+    transition: 0.5s;    
+}
+
+.compulsoryField
+{
+    color:Red;
+}
+
+.info-box{
+  height: 50px;
+  margin-bottom: 0px
+}
+
+.info-box .icon i{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.info-box .content .text{
+   margin-top: 8px;
+}
+
+.tickets{
+  height: 80px;
+}
+
+.tickets .icon i{
+    font-size: 45px;
+    line-height: 80px;
+}

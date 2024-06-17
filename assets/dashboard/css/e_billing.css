@@ -1,0 +1,29 @@
+.sub_menu{
+	font-weight: bold;
+}
+.icon{
+	font-size: 24px;
+}
+#result-validate{
+	color:#00A65A;
+	font-weight:bold;
+	font-size:15px;
+	/*margin-left: 300px;*/
+}
+
+.formatPrint{
+   font-size:13px;
+}
+
+.unselectable{
+  background-color: #dddddd70;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+@media print {
+  /* style sheet for print goes here */
+  .noprint {
+    visibility: hidden;
+  }
+}
